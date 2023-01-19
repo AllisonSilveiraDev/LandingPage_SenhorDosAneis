@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Senhor dos Anéis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <h1>
+          <img class="header__logo" src="./dist/images/logos/logoheader.png" alt="logo senhor dos anéis" />
+        </h1>
+        <ul class="header__links">
+          <li class="header__links__item">
+            <a href="#" class="button button--secondary">Assista agora</a>
+          </li>
+          <li class="header__links__item">
+            <a href="#" class="button button--dark">Dowload</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero__content">
+        <div class="hero__content__branding">
+          <img src="./dist/images/logos/anel.png" alt="anel" />
+        </div>
+        <h3 class="title--small">A épica trilogia de Senhor dos anéis.</h3>
+        <ul class="hero__content__combos">
+          <li class="hero__content__combos__combo">
+            <img src="./dist/images/icones/dowload.png" alt="dowload" />
+            <button class="button">Dowload</button>
+          </li>
+          <li class="hero__content__combos__combo">
+            <img src="./dist/images/icones/watch.png" alt="watch" />
+            <button class="button">Assista agora</button>
+          </li>
+        </ul>
+        <p class="text--small">Bem vindo ao mundo da terra média!!</p>
+      </div>
+    </section>
+    <section class="caracters">
+      <nav class="caracters__tabs">
+        <button
+          data-tab-button="sociedade-do-anel"
+          class="caracters__tabs__button caracters__tabs__button--is--active"
+        >
+          Sociedade do anél
+        </button>
+        <button data-tab-button="alidados-sauron" class="caracters__tabs__button">Aliados de Sauron</button>
+      </nav>
+      <ul data-tab-id="sociedade-do-anel" class="caracters__list caracters__list--is-active">
+        <li class="caracters__list__item">
+          <img src="./dist/images/sociedade/frodo.jpg" alt="frodo" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/sociedade/sam.jpg" alt="sam" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/sociedade/gandalf.jpg" alt="gandalf" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/sociedade/aragorn.jpg" alt="aragorn" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/sociedade/legolas.jpg" alt="legolas" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/sociedade/gimli.jpg" alt="gimli" />
+        </li>
+      </ul>
+      <ul data-tab-id="alidados-sauron" class="caracters__list">
+        <li class="caracters__list__item">
+          <img src="./dist/images/evil/sauron.jpg" alt="sauron" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/evil/saruman.jpg" alt="saruman" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/evil/balrog.jpg" alt="balrog" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/evil/nazgul.jpg" alt="nazgul" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/evil/espectro.jpg" alt="espectro" />
+        </li>
+        <li class="caracters__list__item">
+          <img src="./dist/images/evil/orc.jpg" alt="orc" />
+        </li>
+      </ul>
+    </section>
+    <section class="filmes">
+      <h2 class="title--big">Escolha seu Filme</h2>
+      <ul class="filmes__list">
+        <li class="filmes__list__item">
+          <img src="./dist/images/filmes/filme1.jpg" alt="filme1" />
+          <strong class="title--small">A sociedade do anél</strong>
+          <p class="text--big">
+            A história narra o conflito contra o mal que se alastra pela Terra-média, através da luta de
+            várias raças - Humanos, Anões, Elfos, Ents e Hobbits...
+          </p>
+          <button class="button">Assista agora</button>
+        </li>
+        <li class="filmes__list__item">
+          <img src="./dist/images/filmes/filme2.jpg" alt="filme2" />
+          <strong class="title--small">As duas torres</strong>
+          <p class="text--big">
+            Após a captura de Merry e Pippy pelos orcs, a Sociedade do Anel é dissolvida. Frodo e Sam seguem
+            sua jornada rumo à Montanha da Perdição para destruir o anel...
+          </p>
+          <button class="button">Assista agora</button>
+        </li>
+        <li class="filmes__list__item">
+          <img src="./dist/images/filmes/filmes3.jpg" alt="filme3" />
+          <strong class="title--small">O retorno do rei</strong>
+          <p class="text--big">
+            O confronto final entre as forças do bem e do mal que lutam pelo controle do futuro da Terra Média
+            se aproxima. Sauron planeja um grande ataque a Minas Tirith...
+          </p>
+          <button class="button">Assista agora</button>
+        </li>
+      </ul>
+    </section>
+    <section class="img-text-section">
+      <img src="./dist/images/map.jpg" alt="mapa terra média" />
+      <div class="img-text-section__text_container">
+        <h2 class="title">Explore a terra média</h2>
+        <p class="text--big">
+          Terra Média é a terra antiga e fictícia de J. R. R. Tolkien, onde a maioria dos contos do seu
+          imaginário ocorrem. Terra Média é a tradução literal do termo anglo-saxão middangeard, referindo-se
+          a este mundo, o reino dos humanos. Tolkien traduziu "Terra-média" como Endor e Ennor nas línguas
+          élficas quenya.
+        </p>
+      </div>
+    </section>
+    <section class="available-devices">
+      <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+      <ul class="available-devices__list">
+        <li class="available-devices__list__item">
+          <img src="./dist/images/dispositivos/computador.png" alt="computador" />
+          <h4 class="title--small">Computador</h4>
+          <ul class="text">
+            <li>MacOs</li>
+            <li>Chrome OS</li>
+            <li>PC Windows</li>
+          </ul>
+        </li>
+        <li class="available-devices__list__item">
+          <img src="./dist/images/dispositivos/tv.png" alt="tv" />
+          <h4 class="title--small">TV</h4>
+          <ul class="text">
+            <li>Amazon Fire TV</li>
+            <li>Android TV</li>
+            <li>Apple TV</li>
+            <li>Chromecast</li>
+            <li>Tvs LG</li>
+            <li>Roku</li>
+            <li>Samsung</li>
+          </ul>
+        </li>
+        <li class="available-devices__list__item">
+          <img src="./dist/images/dispositivos/videogames.png" alt="videogames" />
+          <h4 class="title--small">Videogames</h4>
+          <ul class="text">
+            <li>PS4</li>
+            <li>PS5</li>
+            <li>XBOX ONE</li>
+            <li>XBOX Series S</li>
+            <li>XBOX Series X</li>
+          </ul>
+        </li>
+        <li class="available-devices__list__item">
+          <img src="./dist/images/dispositivos/celular.png" alt="celular" />
+          <h4 class="title--small">Celulares e Tablets</h4>
+          <ul class="text">
+            <li>Tablets Amazon Fire</li>
+            <li>Celulares e tablets Android</li>
+            <li>iPhone e iPad</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section class="faq">
+      <h2 class="title">Perguntas frequentes</h2>
+      <ul class="faq__questions">
+        <li class="faq__questions__item">
+          <div class="faq__questions__item__question" data-faq-question>
+            Quanto tempo de duração tem A Sociedade do Anel?
+          </div>
+          <div class="faq__questions__item__answer text--big">
+            <p>178 minutos = 2 horas e 58 minutos.</p>
+          </div>
+        </li>
+        <li class="faq__questions__item">
+          <div class="faq__questions__item__question" data-faq-question>
+            Quanto tempo de duração tem O Retorno do Rei?
+          </div>
+          <div class="faq__questions__item__answer text--big">
+            <p>201 minutos = 3 horas e 21 minutos</p>
+          </div>
+        </li>
+        <li class="faq__questions__item">
+          <div class="faq__questions__item__question" data-faq-question>
+            Quanto tempo de duração tem As Duas Torres?
+          </div>
+          <div class="faq__questions__item__answer text--big">
+            <p>179 minutos = 2 horas e 59 minutos</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">
+      <div class="footer__container">
+        <img class="footer__logo" src="./dist/images/logos/logo.png" alt="logo" />
+        <ul class="footer__links">
+          <li class="footer__links__item">
+            <div class="language-selector">
+              <img src="./dist/images/icones/globe.svg" alt="Globo" />
+              <select>
+                <option>English</option>
+                <option selected>Português</option>
+              </select>
+            </div>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Termos e Condições de Uso</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Política de privacidade</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Anúncios personalizados</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Dispositivos compatíveis</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="#" class="text--small">Ajuda</a>
+          </li>
+          <li class="footer__links__item">
+            <a href="https://newportfolio-wheat.vercel.app/" class="text--small">Sobre o AlllisonDev</a>
+          </li>
+        </ul>
+        <p class="text--small">
+          Landing page desenvolvida para exercicio da EBAC feita por Allison Silveira Andrade
+        </p>
+      </div>
+    </footer>
+    <script src="./dist/js/main.js"></script>
+  </body>
+</html>
